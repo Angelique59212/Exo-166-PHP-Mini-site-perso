@@ -25,16 +25,8 @@ function getPart($name) {
 }
 
 function getUserData() {
+    if (file_exists('../data/user.json')) {
     $dataContent =  file_get_contents('../data/user.json');
-    $decode = json_decode($dataContent);
-
-    if (file_exists('user.json')) {
-        foreach ($dataContent as $key => $value) {
-//            echo "$value";
-        }
+    return json_decode($dataContent, true);
     }
-
-
-
 }
-
