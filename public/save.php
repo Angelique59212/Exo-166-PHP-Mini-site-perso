@@ -9,4 +9,4 @@ if (isset($_POST['submit']) && isset($_POST['name']) && isset($_POST['message'])
 $jsonMessage = file_put_contents("../data/last_message.json", $_POST);
 json_encode($jsonMessage);
 
-header('Location: admin.php');
+header('Location: /../public/?page=admin');
