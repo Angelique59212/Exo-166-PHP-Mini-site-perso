@@ -4,8 +4,10 @@
 <?php
 
 if (file_exists('../data/last_message.json')) {
-    $dataContent =  file_get_contents('../data/last_message.json');
-    echo $dataContent;
+    $dataContent =  json_decode(file_get_contents('../data/last_message.json'));
+    foreach ($dataContent as $value) {
+        echo $value[0] . " : " . $value[1]. "<br>";
+    }
 }
 
 if (!isset($_SESSION['error']) || ($_SESSION['error'] === "error")) {
