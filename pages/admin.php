@@ -14,6 +14,6 @@ if (!isset($_SESSION['error']) || ($_SESSION['error'] === "error")) {
     header('Location: /../public/');
 }?>
 
-<form action="../public/?page=passwd" method="post">
+<form action="/../passwd.php" method="post">
     <input type="submit" name="disconnect" id="disconnect" value="Déconnexion">
 </form>

@@ -2,7 +2,7 @@
     <h1>HOME</h1>
     <p>Bienvenue sur mon Mini-Site</p>
 
-    <form action="../public/?page=passwd" method="post">
+    <form action="/../passwd.php" method="post">
         <label for="login"></label>
         <input type="text" name="login" id="login" placeholder="Login">
 

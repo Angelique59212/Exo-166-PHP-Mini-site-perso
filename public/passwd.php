@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 if (isset($_POST['submit'], $_POST['passwd'],$_POST['login'])) {
     if ($_POST['passwd'] === "userpasswd" && $_POST['login'] === "admin") {
 

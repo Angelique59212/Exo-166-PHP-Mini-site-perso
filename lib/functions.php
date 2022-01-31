@@ -22,10 +22,6 @@ function getContent() {
 
         include __DIR__.'/../pages/admin.php';
     }
-    elseif(isset($_GET['page']) && $_GET['page'] == "passwd") {
-
-        include __DIR__.'/../pages/passwd.php';
-    }
 }
 
 function getPart($name) {
