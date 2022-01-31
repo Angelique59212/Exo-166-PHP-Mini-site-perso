@@ -15,3 +15,13 @@
     </form>
 
 </section>
+
+<?php
+if (isset($_SESSION['mail'])) {
+    if ($_SESSION['mail'] === "mail-success") {
+        echo "Le mail est bien envoyé ";
+    }
+    else {
+        echo "Erreur lors de l'envoi";
+    }
+}?>
