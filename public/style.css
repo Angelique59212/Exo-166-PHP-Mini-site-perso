@@ -12,12 +12,12 @@ html {
 body {
 	text-align: center;
 	font-family: Calibri, serif;
-	background: lightblue;
+	background: #39A6A3;
 }
 header, footer {
 	margin: 0;
 	padding: 0;
-	background: cyan;
+	background: #DEEEEA;
 }
 footer {
 	position: absolute;
@@ -45,3 +45,29 @@ section, form {
 section h1 {
 	margin: 8px;
 }
+
+h1 {
+	font-size: 4rem;
+}
+
+span {
+	padding: 1rem;
+}
+
+p {
+	color: #3939e8;
+}
+
+@media screen and (max-width: 490px){
+	textarea {
+		width: 70vw;
+	}
+}
+
+@media screen and (max-width: 390px){
+	input {
+		width: 70vw;
+	}
+}
+
+

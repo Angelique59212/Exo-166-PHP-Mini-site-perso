@@ -10,8 +10,9 @@
         <input type="text" name="passwd" id="passwd" placeholder="Password">
 
         <input type="submit" name="submit" id="submit">
+    </form>
 
-    </form><?php
+    <img src="/assets/img/moi2.jpg" alt="moi"><?php
 
     if (isset($_SESSION['error'])) {
         if ($_SESSION['error'] === "error") {

@@ -25,6 +25,4 @@ if (isset($_SESSION['mail'])) {
         echo "Erreur lors de l'envoi";
     }
 }
-else {
-    echo  "";
-}
+$_SESSION['mail'] = null;

@@ -4,6 +4,10 @@
     "occupation": "Web developer",
     "experiences": [
         {
+            "year": 2021,
+            "company": "Formation UpTo Fourmies"
+        },
+        {
             "year": 2013,
             "company": "Voyage Humanitaire"
         },
@@ -12,8 +16,28 @@
             "company": "Prim'Toit"
         },
         {
-            "year": 2021,
-            "company": "Formation UpTo Fourmies"
+            "year": 2013,
+            "company": "Formation Perfectionnement WORD, EXCEL, POWERPOINT à la CCI de Valenciennes"
+        },
+        {
+            "year": 2010,
+            "company": "Employé Libre Service"
+        },
+        {
+            "year": 2009,
+            "company": "Commerciale"
+        },
+        {
+            "year": 2009,
+            "company": "Agent de conditionnement"
+        },
+        {
+            "year": 2015,
+            "company": "Différents lieux de stages en tant qu'AMP"
+        },
+        {
+            "year": 2010,
+            "company": "Serveuse en restauration"
         }
     ]
 }
