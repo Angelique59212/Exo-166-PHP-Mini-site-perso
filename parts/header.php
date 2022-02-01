@@ -7,7 +7,7 @@ session_start()?>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=no">
         <title>Angélique Dehainaut</title>
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
     </head>
     <body>
         <header>
