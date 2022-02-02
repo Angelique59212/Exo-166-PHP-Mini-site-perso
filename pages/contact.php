@@ -1,7 +1,7 @@
 <section>
     <h1>Contact</h1>
 
-    <form action="/../save.php" method="post">
+    <form action="/?page=save" method="post">
         <label for="name"></label>
         <input type="text" id="name" name="name" placeholder="nom" required>
 

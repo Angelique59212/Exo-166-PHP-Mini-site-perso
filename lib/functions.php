@@ -26,6 +26,10 @@ function getContent() {
 
         include  './passwd.php';
     }
+    elseif(isset($_GET['page']) && $_GET['page'] == "save") {
+
+        include  './save.php';
+    }
 }
 
 function getPart($name) {
