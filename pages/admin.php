@@ -11,7 +11,7 @@ if (file_exists('../data/last_message.json')) {
 }
 
 if (!isset($_SESSION['error']) || ($_SESSION['error'] === "error")) {
-    header('Location: /../public/');
+    header('Location: /');
 }?>
 
 <form action="/?page=passwd" method="post">
